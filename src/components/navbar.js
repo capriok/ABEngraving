@@ -7,9 +7,9 @@ export default function Navbar() {
   return (
     <div className='navbar'>
       <div className="nav-buttons">
-        <div className="nav-link">About</div>
-        <div className="nav-link">Inquire</div>
-        <div className="nav-link">Products</div>
+        <a href='#first-section'><div className="nav-link">About</div></a>
+        <a href='#second-section'><div className="nav-link">Inquire</div></a>
+        <a href='#third-section'><div className="nav-link">Gallery</div></a>
       </div>
     </div>
   )

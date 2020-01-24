@@ -1,12 +1,15 @@
 import React from 'react'
 import { useStateValue } from './state'
-import Navbar from './components/navbar'
-import Banner from './components/banner'
 import './index.css'
 import '../src/components/components.css'
-import Primary from './components/primary'
-import Secondary from './components/secondary'
+import Navbar from './components/navbar'
+import Banner from './components/banner'
+import CallUs from './components/callus'
 import FindUs from './components/findus'
+import First from './components/first'
+import Second from './components/second'
+import Third from './components/third'
+import Footer from './components/footer'
 
 export default function App() {
   const [{user}, dispatch] = useStateValue()
@@ -16,9 +19,12 @@ export default function App() {
       <Banner />
       <div className="Main">
         <Navbar />
-        <Primary />
+        <First />
+        <CallUs />
+        <Second />
         <FindUs />
-        <Secondary />
+        <Third />
+        <Footer />
       </div>
     </div>
   );

@@ -5,11 +5,13 @@ export default function FindUs() {
     <>
     <div className="navbar">
       <div className="nav-buttons">
-        <div className="site-link">FaceBook</div>
+        <div className="site-link">Facebook</div>
+        <div className="site-link">Instagram</div>
         <div className="site-link">Etsy</div>
-        <div className="site-link">Pinterest</div>
+        <div className="site-link">Pintrest</div>
       </div>
     </div>
     </>
   );
 }
+     
