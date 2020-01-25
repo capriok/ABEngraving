@@ -1,11 +1,12 @@
 import React from "react";
+import abstract from "../img/abstract.jpg";
 
 export default function Second() {
   return (
     <>
-      <div id="first-section" className="first-section">
+      <div id="second-section" className="first-section">
         <div className="one" style={{ order: 2 }}>
-          <img src="" alt="" />
+          <img src={abstract} style={{ width: "80%" }} alt="" />
         </div>
         <div className="two">
           <div className="two-content">

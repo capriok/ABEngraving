@@ -1,6 +1,6 @@
 import React from "react";
 import "./components.css";
-import logo from "../img/logo.jpg";
+import logo from "../img/logo.png";
 
 export default function Primary() {
   return (
