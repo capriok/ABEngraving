@@ -17,6 +17,7 @@
   justify-content: center;
   overflow: hidden;
   width: 100%;
+  max-height: 30vh;
 }
 .banner-img {
   width: 100%;
