@@ -13,8 +13,8 @@ import Footer from "./components/footer";
 export default function App() {
   return (
     <div className="App">
-      <Banner />
       <div className="Main">
+        <Banner />
         <Navbar />
         <First />
         <CallUs />

@@ -16,10 +16,10 @@
   overflow: hidden;
   display: flex;
   justify-content: center;
+  overflow: hidden;
 }
 .banner-main img {
   width: 100%;
-  /* max-width: 1700px; */
   min-width: 1000px;
   background-color: rgb(255, 255, 255);
   z-index: 1;
@@ -44,7 +44,7 @@
   align-items: center;
 }
 .nav-link {
-  padding: 8px 60px 8px 60px;
+  padding: 10px;
   background-color: #e5ddd6;
   border: 1px solid var(--nav-btn-outline);
   border-radius: 5px;
@@ -62,22 +62,18 @@
 
 .first-section {
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
   flex-direction: row;
   width: 100%;
-  height: 80vh;
 }
-@media (max-width: 1000px) {
-  .first-section {
-    flex-direction: column;
-  }
-}
+
 .one {
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
+  margin: 20px;
 }
 .one img {
   width: 80%;
@@ -88,6 +84,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 20px;
+  background-color: red;
 }
 .two-content {
   width: 80%;
@@ -100,37 +98,49 @@
   padding-bottom: 10px;
 }
 .two p {
-  font-size: 20px;
   padding: 10px;
+}
+@media (max-width: 1000px) {
+  .first-section {
+    flex-direction: column;
+  }
+  .two-content {
+    padding: 20px;
+  }
 }
 
 /* FIRST END */
 
-/* FIND US */
+/* CALL US */
 
-.find-bar {
-  width: 100%;
+.call-bar {
+  box-sizing: border-box;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  padding: 10px;
   background-color: var(--light-purple-bg);
 }
-.find-bar p {
-  padding: 10px;
+@media (max-width: 1000px) {
+  .call-bar {
+    flex-direction: column;
+  }
 }
-.find-hook {
-  font-size: 1.2em;
-  padding: 10px;
+.call-bar img {
+  width: 150px;
 }
-.find-buttons {
+.call-info {
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
 }
-.find-icon {
-  width: 40px;
+.call-info p {
+  margin: 5px;
 }
 
-/* FIND US END */
+/* CALL US END */
 
 /* SECOND */
 
@@ -145,31 +155,32 @@
 
 /* SECOND END */
 
-/* CALL US */
+/* FIND US */
 
-.call-bar {
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
+.find-bar {
   width: 100%;
-  padding: 10px;
-  background-color: var(--light-purple-bg);
-}
-.call-bar img {
-  width: 150px;
-}
-.call-info {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-}
-.call-info h1 {
-  margin: 5px;
+  background-color: var(--light-purple-bg);
 }
 
-/* CALL US END */
+.find-bar p {
+  padding: 10px;
+}
+.find-title {
+  padding: 10px;
+}
+.find-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.find-icon {
+  width: 40px;
+}
+
+/* FIND US END */
 
 /* THIRD  */
 
@@ -179,7 +190,6 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 1000px;
 }
 .gallery-title {
   margin: 20px;
@@ -216,6 +226,20 @@
   width: 50%;
   font-size: x-small;
 }
+@media (max-width: 1000px) {
+  .gallery-ender {
+    width: 80%;
+  }
+  .gallery-slides {
+    padding: 0px;
+    background-color: transparent;
+  }
+  .gallery-slides img {
+    width: 30%;
+    padding: 0px;
+    margin: 5px;
+  }
+}
 
 /* THIRD END */
 
@@ -237,7 +261,6 @@
   padding: 20px;
 }
 .footer-title {
-  font-size: 3rem;
   padding: 10px;
 }
 .footer-par {
@@ -252,17 +275,21 @@
   border-radius: 7px;
 }
 .footer-body input {
-  width: 50%;
+  width: 60%;
   padding: 12px;
   margin-right: 10px;
   border: none;
   outline: none;
 }
 .footer-body button {
-  padding: 12px 30px 12px 30px;
+  padding: 10px;
   border: none;
   outline: none;
   cursor: pointer;
 }
-
+@media (max-width: 1000px) {
+  .footer-body {
+    width: 100%;
+  }
+}
 /* FOOTER END */

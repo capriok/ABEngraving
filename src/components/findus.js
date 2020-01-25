@@ -7,7 +7,7 @@ export default function FindUs() {
   return (
     <>
       <div className="find-bar">
-        <div className="find-hook">
+        <div className="find-title">
           <h1>FIND US ON SOCIAL MEDIA</h1>
         </div>
         <div className="find-buttons">

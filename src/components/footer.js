@@ -1,6 +1,17 @@
-import React from "react";
-
+import React, { useState } from "react";
+import axios from "axios";
 export default function Footer() {
+  const [email, setEmail] = useState("");
+  const handleSubmit = e => {
+    e.preventDefault();
+    axios
+      .post("http://localhost:5000/joinlist", { email: email })
+      .then(res => {
+        res.json();
+        console.log(res);
+      })
+      .catch(error => console.log(error));
+  };
   return (
     <>
       <div className="footer-section">
@@ -10,13 +21,17 @@ export default function Footer() {
             Stay up to date on deals, services, and new arrivals.
           </p>
           <div className="footer-body">
-            <input
-              type="email"
-              placeholder="Please enter an email address"
-              name=""
-              id=""
-            />
-            <button onClick="">SIGN ME UP!</button>
+            <form action="" onSubmit={handleSubmit}>
+              <input
+                type="text"
+                placeholder="Please enter an email address"
+                name=""
+                id=""
+                onChange={e => setEmail(e.target.value)}
+                value={email}
+              />
+              <button>SIGN ME UP!</button>
+            </form>
           </div>
         </div>
       </div>
