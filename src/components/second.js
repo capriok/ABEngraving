@@ -1,11 +1,27 @@
-import React from 'react';
+import React from "react";
 
 export default function Second() {
   return (
     <>
-    <div id="second-section" className="second-section">
-      SECOND
-    </div>
+      <div id="first-section" className="first-section">
+        <div className="one" style={{ order: 2 }}>
+          <img src="" alt="" />
+        </div>
+        <div className="two">
+          <div className="two-content">
+            <h1>Sample content placeholder.</h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui
+              necessitatibus voluptatum voluptates autem illum, voluptas neque
+              magnam error doloribus.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+              voluptate nesciunt aliquid reprehenderit non veniam.
+            </p>
+          </div>
+        </div>
+      </div>
     </>
   );
 }

@@ -8,7 +8,7 @@
 body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
-  background-color: rgb(255, 255, 255);
+  background-color: #ecead7;
   color: black;
 }
 
@@ -16,6 +16,9 @@ html {
   scroll-behavior: smooth;
 }
 
+p {
+  font-size: 1.1rem;
+}
 a {
   text-decoration: none;
   color: black;
@@ -25,16 +28,18 @@ a {
 
 .App {
   text-align: center;
+  width: 100%;
 }
 .Main {
   display: flex;
   align-items: center;
   flex-direction: column;
-  position: relative;
+  /* position: relative;
   left: 50%;
-  transform: translate(-50%);
+  transform: translate(-50%); */
   width: 100%;
-  max-width: 1700px;
+  /* max-width: 1700px; */
+  border: 1px solid black;
 }
 
 /* APP END */

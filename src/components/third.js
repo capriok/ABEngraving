@@ -48,12 +48,12 @@ export default function Third() {
           <img src={right} className="gal-right" onClick={slideRight} alt="" />
         </div>
         <div className="gallery-ender">
-          <h1>
+          <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
             temporibus in aliquid voluptatibus totam ipsam, facilis delectus
             placeat atque adipisci expedita fugiat laudantium quam itaque! Natus
             dicta eos explicabo a.
-          </h1>
+          </p>
         </div>
       </div>
     </>
