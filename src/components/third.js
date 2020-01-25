@@ -38,14 +38,22 @@ export default function Third() {
     <>
       <div id="third-section" className="third-section">
         <h1 className="gallery-title">Gallery</h1>
-        <div className="gallery-main">
+        <div className="gallery-body">
           <img src={left} className="gal-left" onClick={slideLeft} alt="" />
-          <div className="gallery-content">
+          <div className="gallery-slides">
             {images.splice(start, end).map((img, index) => (
               <img key={index} src={img} alt="" />
             ))}
           </div>
           <img src={right} className="gal-right" onClick={slideRight} alt="" />
+        </div>
+        <div className="gallery-ender">
+          <h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+            temporibus in aliquid voluptatibus totam ipsam, facilis delectus
+            placeat atque adipisci expedita fugiat laudantium quam itaque! Natus
+            dicta eos explicabo a.
+          </h1>
         </div>
       </div>
     </>

@@ -1,23 +1,22 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap');
-
-*{
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap");
+* {
   padding: 0;
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: rgb(255, 255, 255);
-  color:black;
-  } 
-
-html {
-scroll-behavior: smooth;
+  color: black;
 }
 
-a{
+html {
+  scroll-behavior: smooth;
+}
+
+a {
   text-decoration: none;
   color: black;
 }
@@ -27,7 +26,7 @@ a{
 .App {
   text-align: center;
 }
-.Main{
+.Main {
   display: flex;
   align-items: center;
   flex-direction: column;
