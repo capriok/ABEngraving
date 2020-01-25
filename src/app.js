@@ -1,5 +1,4 @@
 import React from "react";
-// import { useStateValue } from './state'
 import "./index.css";
 import "../src/components/components.css";
 import Navbar from "./components/navbar";
@@ -12,8 +11,6 @@ import Third from "./components/third";
 import Footer from "./components/footer";
 
 export default function App() {
-  // const [,dispatch] = useStateValue()
-
   return (
     <div className="App">
       <Banner />
