@@ -13,17 +13,21 @@
 /* BANNER */
 
 .banner-main {
-  overflow: hidden;
   display: flex;
   justify-content: center;
   overflow: hidden;
-  height: 30vh;
 }
 .banner-main img {
+  width: 100%;
   background-color: rgb(255, 255, 255);
   z-index: 1;
 }
-
+@media (max-width: 1000px) {
+  .banner-main img {
+  }
+}
+@media (orientation: landscape) {
+}
 /* BANNER END */
 
 /* NAVBAR */
@@ -63,7 +67,7 @@
   display: flex;
   align-items: center;
   flex-direction: row;
-  width: 100%;
+  width: 90%;
 }
 
 .one {
@@ -72,12 +76,13 @@
   justify-content: center;
   align-items: center;
   height: 100%;
-  margin: 20px;
+  margin: 20px 0px 20px 0px;
 }
 .one img {
   flex: 1;
   width: 80%;
   min-width: 200px;
+  border-radius: 5px;
 }
 .two {
   flex: 1;
@@ -85,12 +90,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px;
+  margin: 20px 0px 20px 0px;
 }
 .two-content {
-  width: 80%;
-  min-width: 400px;
   padding: 40px;
+  border-radius: 10px;
   background-color: #9aa4b4;
 }
 .two h1 {

@@ -11,7 +11,7 @@ import right from "../img/right-arrow.png";
 export default function Third() {
   const [start, setStart] = useState(0);
   const [end, setEnd] = useState(3);
-  const images = [wood1, wood2, wood3, glass1, glass2, glass3];
+  const images = [wood1, glass2, wood3, glass1, wood2, glass3];
 
   const slideLeft = () => {
     if (start !== 0) {
