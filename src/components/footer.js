@@ -4,13 +4,13 @@ export default function Footer() {
   const [email, setEmail] = useState("");
   const handleSubmit = e => {
     e.preventDefault();
-    axios
-      .post("http://localhost:5000/joinlist", { email: email })
-      .then(res => {
-        res.json();
-        console.log(res);
-      })
-      .catch(error => console.log(error));
+    // axios
+    //   .post("http://localhost:5000/joinlist", { email: email })
+    //   .then(res => {
+    //     res.json();
+    //     console.log(res);
+    //   })
+    //   .catch(error => console.log(error));
   };
   return (
     <>
