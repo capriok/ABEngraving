@@ -17,10 +17,9 @@
   display: flex;
   justify-content: center;
   overflow: hidden;
+  height: 30vh;
 }
 .banner-main img {
-  width: 100%;
-  min-width: 1000px;
   background-color: rgb(255, 255, 255);
   z-index: 1;
 }
@@ -76,8 +75,9 @@
   margin: 20px;
 }
 .one img {
+  flex: 1;
   width: 80%;
-  min-width: 300px;
+  min-width: 200px;
 }
 .two {
   flex: 1;
@@ -100,12 +100,18 @@
 .two p {
   padding: 10px;
 }
+
 @media (max-width: 1000px) {
   .first-section {
     flex-direction: column;
   }
   .two-content {
     padding: 20px;
+  }
+}
+@media (orientation: landscape) {
+  .first-section {
+    flex-direction: row;
   }
 }
 
@@ -286,6 +292,7 @@
   border: none;
   outline: none;
   cursor: pointer;
+  background-color: white;
 }
 @media (max-width: 1000px) {
   .footer-body {
