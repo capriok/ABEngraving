@@ -16,16 +16,17 @@
   display: flex;
   justify-content: center;
   overflow: hidden;
-}
-.banner-main img {
   width: 100%;
-  background-color: rgb(255, 255, 255);
+}
+.banner-img {
+  width: 100%;
   z-index: 1;
+  background-color: rgb(255, 255, 255);
 }
 @media (min-width: 1000px) {
   .banner-main {
-    width: auto;
-    max-height: 30vh;
+    /* width: auto;
+    max-height: 30vh; */
   }
 }
 @media (orientation: landscape) {

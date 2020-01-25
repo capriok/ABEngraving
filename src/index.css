@@ -43,6 +43,7 @@ a {
   flex-direction: column;
   width: 100%;
   max-width: 1700px;
+  min-width: 200px;
   box-shadow: 0px 10px 10px black;
   background-color: white;
   overflow: hidden;
