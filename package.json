@@ -18,11 +18,12 @@
   },
   "scripts": {
     "start": "serve -s build",
+    "react": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "cd server && npm start",
-    "dev": "concurrently \"npm start\" \"npm run server\" "
+    "dev": "concurrently \"npm run react\" \"npm run server\" "
   },
   "eslintConfig": {
     "extends": "react-app"
