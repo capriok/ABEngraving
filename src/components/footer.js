@@ -25,8 +25,6 @@ export default function Footer() {
               <input
                 type="text"
                 placeholder="Please enter an email address"
-                name=""
-                id=""
                 onChange={e => setEmail(e.target.value)}
                 value={email}
               />
