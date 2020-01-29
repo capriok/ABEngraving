@@ -37,7 +37,7 @@ export default function Third() {
   return (
     <>
       <div id="third-section" className="third-section">
-        <h1 className="gallery-title">Gallery</h1>
+        <h1 className="section-title">Gallery</h1>
         <div className="gallery-body">
           <img src={left} className="gal-left" onClick={slideLeft} alt="" />
           <div className="gallery-slides">

@@ -8,6 +8,7 @@ import FindUs from "./components/findus";
 import First from "./components/first";
 import Second from "./components/second";
 import Third from "./components/third";
+import MeetUs from "./components/meetus";
 import Footer from "./components/footer";
 
 export default function App() {
@@ -21,6 +22,7 @@ export default function App() {
         <Second />
         <FindUs />
         <Third />
+        <MeetUs />
         <Footer />
       </div>
     </div>
