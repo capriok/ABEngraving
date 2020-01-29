@@ -29,31 +29,30 @@
 /* NAVBAR */
 
 .navbar {
-  user-select: none;
-  width: 100%;
   position: sticky;
   top: 0;
+  width: 100%;
+  user-select: none;
+  overflow: hidden;
   background-color: var(--light-purple-bg);
   box-shadow: 0px 1px 5px black;
+  z-index: 100;
 }
 .nav-buttons {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  height: 50px;
 }
 .nav-link {
-  padding: 7px 25px 7px 25px;
-  background-color: #e5ddd6;
-  border: 1px solid var(--nav-btn-outline);
-  border-radius: 5px;
+  padding: 15px;
   cursor: pointer;
+  border-bottom: 2px solid var(--light-purple-bg) ;
   transition: all 0.5s;
 }
 .nav-link:hover {
-  background-color: #d3ccc7;
-  transition: all 1s;
+  border-bottom: 2px solid black ;
+  transition: all .3s;
 }
 
 /* NAVABR END */
@@ -324,11 +323,11 @@
   .gallery-ender {
     width: 80%;
   }
-  .gallery-slides {
+  .gallery-body {
     padding: 0px;
     background-color: transparent;
   }
-  .gallery-slides img {
+  .gallery-body img {
     width: 30%;
     padding: 0px;
     margin: 5px;
