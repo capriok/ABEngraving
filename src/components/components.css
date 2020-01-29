@@ -32,12 +32,13 @@
   user-select: none;
   width: 100%;
   position: sticky;
-  top: 0px;
+  top: 0;
   background-color: var(--light-purple-bg);
   box-shadow: 0px 1px 5px black;
 }
 .nav-buttons {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
   height: 50px;

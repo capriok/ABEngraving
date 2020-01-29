@@ -9,7 +9,8 @@ export default function Navbar() {
       <div className="nav-buttons">
         <a href='#greeting-section'><div className="nav-link">About</div></a>
         <a href='#gallery-section'><div className="nav-link">Gallery</div></a>
-        <a href='#meetus-section'><div className="nav-link">Meet the team</div></a>
+        <a href='#meetus-section'><div className="nav-link">Meet Us</div></a>
+        <a href='#contact-section'><div className="nav-link">Contact</div></a>
       </div>
     </div>
   )
