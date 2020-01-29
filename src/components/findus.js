@@ -11,13 +11,17 @@ export default function FindUs() {
           <h1>FIND US ON SOCIAL MEDIA</h1>
         </div>
         <div className="find-buttons">
-          <a href="https://www.facebook.com/artebellaengraving" target="_blank">
+          <a href="https://www.facebook.com/artebellaengraving"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img className="find-icon" src={facebook} alt="" />
             <p>FACEBOOK</p>
           </a>
           <a
             href="https://www.instagram.com/arte_bella_engraving/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <img className="find-icon" src={instagram} alt="" />
             <p>INSTAGRAM</p>
@@ -25,6 +29,7 @@ export default function FindUs() {
           <a
             href="https://www.pinterest.com/artebellaengraving"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <img className="find-icon" src={pinterest} alt="" />
             <p>PINTEREST</p>

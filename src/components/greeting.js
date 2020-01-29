@@ -1,12 +1,13 @@
 import React from "react";
-import abstract from "../img/abstract.jpg";
+import "./components.css";
+import logo from "../img/logo.png";
 
-export default function Second() {
+export default function Greeting() {
   return (
     <>
-      <div id="second-section" className="first-section">
-        <div className="one" style={{ order: 2 }}>
-          <img src={abstract} style={{ width: "80%" }} alt="" />
+      <div id="greeting-section" className="greeting-section">
+        <div className="one">
+          <img src={logo} alt="" />
         </div>
         <div className="two">
           <div className="two-content">

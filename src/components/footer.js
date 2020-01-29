@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import axios from "axios";
+// import axios from "axios";
 export default function Footer() {
   const [email, setEmail] = useState("");
   const handleSubmit = e => {

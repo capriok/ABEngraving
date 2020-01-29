@@ -10,15 +10,6 @@
 /* FONTS */
 @import url("https://fonts.googleapis.com/css?family=Alex+Brush&display=swap");
 
-/* GLOBAL SELECTOR */
-
-.section-title {
-  font-size: calc(1rem * 5);
-  font-family: "Alex Brush", cursive;
-  margin: 20px;
-}
-
-/* GLOBAL SELECTOR END */
 
 /* BANNER */
 
@@ -68,7 +59,7 @@
 
 /* FIRST */
 
-.first-section {
+.greeting-section {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -88,6 +79,7 @@
 .one img {
   flex: 1;
   width: 60%;
+  margin: 10px;
   min-width: 200px;
   max-width: 500px;
   border-radius: 5px;
@@ -191,14 +183,14 @@
 
 /* THIRD  */
 
-.third-section {
+.gallery-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
-.gallery-body {
+.gallery-main {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -206,14 +198,14 @@
   max-width: 1400px;
   padding: 10px;
 }
-.gallery-slides {
+.gallery-body {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px;
   background-color: var(--gal-cont);
 }
-.gallery-slides img {
+.gallery-body img {
   width: 30%;
   padding: 10px;
   margin: 10px;
@@ -315,7 +307,7 @@
   .banner-main {
     max-height: 30vh;
   }
-  .first-section {
+  .greeting-section {
     flex-direction: column;
     width: 95%;
   }

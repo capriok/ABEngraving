@@ -8,7 +8,7 @@ import glass3 from "../img/glass3.jpg";
 import left from "../img/left-arrow.png";
 import right from "../img/right-arrow.png";
 
-export default function Third() {
+export default function Gallery() {
   const [start, setStart] = useState(0);
   const [end, setEnd] = useState(3);
   const images = [wood1, glass2, wood3, glass1, wood2, glass3];
@@ -36,11 +36,11 @@ export default function Third() {
 
   return (
     <>
-      <div id="third-section" className="third-section">
+      <div id="gallery-section" className="gallery-section">
         <h1 className="section-title">Gallery</h1>
-        <div className="gallery-body">
+        <div className="gallery-main">
           <img src={left} className="gal-left" onClick={slideLeft} alt="" />
-          <div className="gallery-slides">
+          <div className="gallery-body">
             {images.splice(start, end).map((img, index) => (
               <img key={index} src={img} alt="" />
             ))}

@@ -13,19 +13,23 @@ body {
   background-color: #ecead7;
   color: black;
 }
-
 html {
   scroll-behavior: smooth;
 }
 h1 {
-  font-size: calc(1rem + 1vw);
+  font-size: 1.5rem;
 }
 p {
-  font-size: calc(1rem + 0.3vw);
+  font-size: 1.1rem;
 }
 a {
   text-decoration: none;
   color: black;
+}
+.section-title {
+  font-family: "Alex Brush", cursive;
+  font-size: calc(3rem + 2vw);
+  margin: 20px;
 }
 
 /* APP */
@@ -35,7 +39,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #bdc9b3;
+  background-color: #cecaaa;
 }
 .Main {
   display: flex;

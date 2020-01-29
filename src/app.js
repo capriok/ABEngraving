@@ -5,9 +5,8 @@ import Navbar from "./components/navbar";
 import Banner from "./components/banner";
 import CallUs from "./components/callus";
 import FindUs from "./components/findus";
-import First from "./components/first";
-import Second from "./components/second";
-import Third from "./components/third";
+import Greeting from "./components/greeting";
+import Gallery from "./components/gallery";
 import MeetUs from "./components/meetus";
 import Footer from "./components/footer";
 
@@ -17,12 +16,11 @@ export default function App() {
       <div className="Main">
         <Banner />
         <Navbar />
-        <First />
-        <CallUs />
-        <Second />
-        <FindUs />
-        <Third />
+        <Greeting />
+        <Gallery />
         <MeetUs />
+        <CallUs />
+        <FindUs />
         <Footer />
       </div>
     </div>
