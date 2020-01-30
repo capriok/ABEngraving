@@ -52,7 +52,7 @@ export default function Gallery() {
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
             temporibus in aliquid voluptatibus totam ipsam, facilis delectus
             placeat atque adipisci expedita fugiat laudantium quam itaque! Natus
-            dicta eos explicabo a.
+            dicta eos explicabo.
           </p>
         </div>
       </div>

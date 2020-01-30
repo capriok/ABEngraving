@@ -8,7 +8,7 @@ export default function FindUs() {
     <>
       <div className="find-bar">
         <div className="find-title">
-          <h1>FIND US ON SOCIAL MEDIA</h1>
+          <h1 className="section-title">Get in touch</h1>
         </div>
         <div className="find-buttons">
           <a href="https://www.facebook.com/artebellaengraving"

@@ -5,7 +5,7 @@ import woman from '../img/woman.png'
 export default function MeetUs() {
   return (
     <>
-      <div id='meetus-section' className="meetus-main">
+      <div id='meetus-section' className="meetus-section">
         <h1 className="section-title">Meet the team</h1>
         <div className="meetus-team">
           <div className="meetus-one">

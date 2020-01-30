@@ -3,12 +3,11 @@ import "./index.css";
 import "../src/components/components.css";
 import Navbar from "./components/navbar";
 import Banner from "./components/banner";
-import CallUs from "./components/callus";
-import FindUs from "./components/findus";
 import Greeting from "./components/greeting";
 import Gallery from "./components/gallery";
 import MeetUs from "./components/meetus";
 import Footer from "./components/footer";
+import Intouch from './components/intouch';
 
 export default function App() {
   return (
@@ -19,8 +18,7 @@ export default function App() {
         <Greeting />
         <Gallery />
         <MeetUs />
-        <CallUs />
-        <FindUs />
+        <Intouch />
         <Footer />
       </div>
     </div>

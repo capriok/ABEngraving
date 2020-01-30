@@ -11,6 +11,19 @@ export default function Footer() {
     //     console.log(res);
     //   })
     //   .catch(error => console.log(error));
+
+    // function ValidateEmail() {
+    //   if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)) {
+    //     return setSuccessfulSubmit(true)
+
+    //   }
+    //   throwError(true)
+    //   return (false)
+    // }
+    // console.log(ValidateEmail);
+
+    // ValidateEmail()
+
   };
   return (
     <>
@@ -31,8 +44,22 @@ export default function Footer() {
               <button>SIGN ME UP!</button>
             </form>
           </div>
+          {/* <div className="footer-body">
+            <form action="" onSubmit={handleSubmit}>
+              <input
+                type="text"
+                placeholder={successfulSubmit ? 'Thank you for subscribing' : 'Please enter an email address'}
+                style={error ? { border: '2px solid red' } : undefined}
+                onChange={e => { throwError(false); setEmail(e.target.value) }}
+                value={email}
+              />
+              <button>SIGN ME UP!</button>
+            </form>
+          </div> */}
         </div>
       </div>
     </>
   );
 }
+
+
