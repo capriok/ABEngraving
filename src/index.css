@@ -12,6 +12,7 @@ body {
   font-family: "Open Sans", sans-serif;
   background-color: #ecead7;
   color: black;
+  line-height: 1.5rem;
 }
 html {
   scroll-behavior: smooth;
@@ -32,7 +33,7 @@ a {
 .section-title {
   font-family: "Alex Brush", cursive;
   font-size: calc(3rem + 2vw);
-  margin: 30px;
+  margin: 40px;
 }
 
 /* APP */
