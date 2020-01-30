@@ -23,6 +23,7 @@
   width: 100%;
   z-index: 1;
   background-color: rgb(255, 255, 255);
+
 }
 /* BANNER END */
 
@@ -47,12 +48,13 @@
 .nav-link {
   padding: 15px;
   cursor: pointer;
-  border-bottom: 2px solid var(--light-purple-bg) ;
-  transition: all 0.5s;
+  border-bottom: 2px solid var(--light-purple-bg);
+  font-size: medium;
+  transition: all 1s;
 }
-.nav-link:hover {
+.nav-link:active {
   border-bottom: 2px solid black ;
-  transition: all .3s;
+  transition: all 3s;
 }
 
 /* NAVABR END */
@@ -64,9 +66,9 @@
   align-items: center;
   justify-content: space-evenly;
   flex-direction: row;
-  width: 85%;
+  width: 100%;
   margin: 20px 0px 20px 0px;
-  min-height: 500px;
+  background-color: rgb(255, 255, 255);
 }
 
 .one {
@@ -93,7 +95,7 @@
 }
 .two-content {
   padding: 20px;
-  width: 100%;
+  width: 80%;
   border-radius: 10px;
   background-color: #9aa4b4;
 }
@@ -120,7 +122,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  min-height: 500px;
+  background-color: rgb(230, 230, 230);
 }
 .gallery-main {
   display: flex;
@@ -141,8 +143,7 @@
   padding: 10px;
   margin: 10px;
 }
-.gal-left,
-.gal-right {
+.gal-left, .gal-right {
   width: 4%;
 }
 .gallery-ender {
@@ -158,8 +159,12 @@
 /* MEETUS */
 
 .meetus-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   width: 100%;
-  min-height: 500px;
+  background-color: rgb(255, 255, 255);
 }
 .meetus-section img{
   width: 250px;
@@ -168,9 +173,6 @@
 .meetus-team{
   display: flex;
   width: 80%;
-  position: relative;
-  left: 50%;
-  transform: translate(-50%);
 }
 .meetus-one p, .meetus-two p{
   width: 70%;
@@ -198,7 +200,7 @@
   flex-direction: column;
   width: 100%;
   margin-bottom: 20px;
-  min-height: 500px;
+  background-color: rgb(230, 230, 230);
 }
 .intouch-body{
   display: flex;
@@ -307,8 +309,21 @@
 
 
 /* MEDIA QUERIES */
-
+@media (min-width:1000px){
+  .greeting-section,
+  .gallery-section,
+  .meetus-section,
+  .intouch-section{
+    min-height: 700px;
+  } 
+}
 @media (max-width: 1000px) {
+  .greeting-section,
+  .gallery-section,
+  .meetus-section,
+  .intouch-section{
+    min-height: 400px;
+  } 
   .banner-main {
     max-height: 30vh;
   }
@@ -338,7 +353,7 @@
     margin: 5px;
   }
   .meetus-section img{
-    width: 175px;
+    width: 150px;
   }
   .meetus-one p, .meetus-two p{
     width: 100%;
