@@ -1,11 +1,11 @@
 /* COLOR VARS */
 
 :root {
-  --light-purple-bg: #bfb6cd;
-  --light-grey-bg: #9aa4b4;
-  --nav-btn-bg: #5a4153;
-  --nav-btn-outline: #a9a09a;
-  --gal-cont: #9aa4b4;
+  --section-bg:#fff;
+  --alt-section-bg:#f0f0f0;
+  --lighter-purple: #bfb6cd;
+  --light-purple: #9aa4b4;
+  --dark-purple: #5a4153;
 }
 /* FONTS */
 @import url("https://fonts.googleapis.com/css?family=Alex+Brush&display=swap");
@@ -35,7 +35,7 @@
   width: 100%;
   user-select: none;
   overflow: hidden;
-  background-color: var(--light-purple-bg);
+  background-color: var(--lighter-purple);
   box-shadow: 0px 1px 5px black;
   z-index: 100;
 }
@@ -48,7 +48,6 @@
 .nav-link {
   padding: 15px;
   cursor: pointer;
-  border-bottom: 2px solid var(--light-purple-bg);
   font-size: medium;
   transition: all 1s;
 }
@@ -67,7 +66,7 @@
   justify-content: space-evenly;
   flex-direction: row;
   width: 100%;
-  background-color: rgb(255, 255, 255);
+  background-color: var(--section-bg);
 }
 
 .one {
@@ -121,7 +120,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-color: rgb(230, 230, 230);
+  background-color: var(--alt-section-bg);
 }
 .gallery-main {
   display: flex;
@@ -148,7 +147,6 @@
   padding: 10px;
   margin: 20px;
   border-radius: 10px;
-  background-color: var(--gal-cont);
 }
 
 /* THIRD END */
@@ -165,7 +163,7 @@
 }
 .meetus-section img{
   width: 250px;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 .meetus-team{
   display: flex;
@@ -176,7 +174,6 @@
   margin: 20px;
   padding: 10px;
   border-radius: 10px;
-  background-color: var(--gal-cont);
 }
 .meetus-one, .meetus-two{
   flex: 1;
@@ -196,7 +193,7 @@
   align-items: center;
   flex-direction: column;
   width: 100%;
-  background-color: rgb(230, 230, 230);
+  background-color: var(--alt-section-bg);
 }
 .intouch-body{
   display: flex;
@@ -209,11 +206,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 50%;
 }
 .follow-items {
   display: flex;
   align-items: flex-start;
+  justify-content: space-evenly;
   flex-direction: column;
   font-weight: bold;
 }
@@ -265,7 +263,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-color: var(--light-purple-bg);
+  background-color: var(--lighter-purple);
   padding: 35px 0px 35px 0px;
 }
 .footer-content {
@@ -286,8 +284,8 @@
   width: 50%;
   margin: 10px;
   padding: 10px;
-  background-color: #5a4153;
   border-radius: 7px;
+  background-color: var(--dark-purple);
 }
 .footer-body input {
   width: 60%;
@@ -319,7 +317,7 @@
   .gallery-section,
   .meetus-section,
   .intouch-section{
-    min-height: 400px;
+    min-height: 300px;
   } 
   .banner-main {
     max-height: 30vh;
@@ -329,7 +327,7 @@
     width: 90%;
   }
   .one img {
-    max-width: 75%;
+    max-width: 95%;
   }
   .two-content {
     padding: 10px;
@@ -363,7 +361,8 @@
   .intouch-body{flex-direction: column;}
   .follow-items{flex-direction: row;}
   .follow-button span{display:none;}
-  .follow-float{order:1;}
+  .follow-float{order:1;width: 100%;}
+  .follow-items{justify-content: space-evenly;width: 100%;}
   .contact-info{margin-bottom: 10px;}
   .footer-body {
     width: 100%;

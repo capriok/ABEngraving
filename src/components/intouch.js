@@ -46,7 +46,7 @@ export default function Intouch() {
             <div className="contact-float">
               <div className="contact-items">
                 <p>Email: artebellaengraving@yahoo.com</p>
-                <p>Phone: 714-319-3006</p>
+                <p>Phone: 714-317-3006</p>
               </div>
             </div>
           </div>

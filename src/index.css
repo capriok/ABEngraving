@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap");
+
+:root {
+  --main-bg: #cecaaa;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -9,10 +14,10 @@
 
 body {
   margin: 0;
-  font-family: "Open Sans", sans-serif;
-  background-color: #ecead7;
-  color: black;
   line-height: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  background-color: #fff;
 }
 html {
   scroll-behavior: smooth;
@@ -43,7 +48,8 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #cecaaa;
+  /* background-color: #cecaaa; */
+  background-color: var(--main-bg);
 }
 .Main {
   display: flex;
@@ -57,3 +63,23 @@ a {
 }
 
 /* APP END */
+
+@media (max-width:1000px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1.1rem;
+  }
+  span {
+    font-size: 1.2rem;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .section-title {
+    font-size: calc(3rem + 2vw);
+    margin: 30px;
+  }
+}
