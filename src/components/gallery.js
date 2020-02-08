@@ -50,7 +50,7 @@ export default function Gallery() {
         <div className="gallery-ender">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
-            temporibus in aliquid totam ipsam, facilis delectus
+            temporibus in aliquid voluptatibus totam ipsam, facilis delectus
             placeat atque expedita fugiat laudantium quam itaque! Natus
             dicta eos explicabo.
           </p>
