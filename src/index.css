@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap");
 
 :root {
-  --main-bg: #cecaaa;
+  --main-bg: #aaaaaa;
 }
 
 * {
@@ -64,7 +64,7 @@ a {
 
 /* APP END */
 
-@media (max-width:1000px) {
+@media (max-width: 1000px) {
   h1 {
     font-size: 1.5rem;
   }
