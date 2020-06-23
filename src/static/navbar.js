@@ -10,17 +10,19 @@ const Navbar = () => {
   }, [isScrolled])
 
   return (
-    <header className={isScrolled ? "scrolled navbar" : "navbar"}>
-      <div className="nav-cont">
-        <h1 className="title"><a href="#">Arte Bella Engraving</a></h1>
-        <div className="actions">
-          <a href="#Mission">Mission</a>
-          <a href="#Services">Services</a>
-          <a href="#Gallery">Gallery</a>
-          <a href="#Testimonials">Testimonials</a>
+    <>
+      <header className={isScrolled ? "scrolled navbar" : "navbar"}>
+        <div className="nav-cont">
+          <h1 className="title"><a href="#">Arte Bella Engraving</a></h1>
+          <div className="actions">
+            <a href="#Mission">Mission</a>
+            <a href="#Services">Services</a>
+            <a href="#Gallery">Gallery</a>
+            <a href="#Testimonials">Testimonials</a>
+          </div>
         </div>
-      </div>
-    </header>
+      </header>
+    </>
   )
 }
 
